@@ -25,7 +25,7 @@
     },
     {
       "name": "Identifier",
-      "scope": "variable, support.variable, support.class, support.type, support.constant, meta.definition.variable, entity.name",
+      "scope": "variable, support.variable, support.class, support.type, support.constant, meta.definition.variable, entity.name,variable.other.object",
       "settings": {
         "foreground": "#AFCCE9"
       }
@@ -40,7 +40,7 @@
     },
     {
       "name": "Function call",
-      "scope": "entity.name.function, support.function",
+      "scope": "entity.name.function, support.function,storage.type.function.php",
       "settings": {
         "foreground": "#FFD96C"
       }
@@ -170,9 +170,9 @@
     },
     {
       "name": "HTML tag inner",
-      "scope": "entity.name.tag, variable.other.object",
+      "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#ffebff"
+        "foreground": "#AFCCE9"
       }
     },
     {
@@ -331,6 +331,7 @@
     "progressBar.background": "#2979FF",
     "scrollbarSlider.activeBackground": "#2979FF50",
     "statusBar.background": "#090C14",
-    "titleBar.activeBackground": "#090C14"
+    "titleBar.activeBackground": "#090C14",
+    "gitDecoration.ignoredResourceForeground": "#43435c",
   }
 }
