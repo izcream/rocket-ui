@@ -6,8 +6,8 @@
     "url": "https://github.com/izcream/rocket-ui"
   },
   "author": {
-      "name": "g3offrey",
-      "url": "https://github.com/g3offrey"
+    "name": "g3offrey",
+    "url": "https://github.com/g3offrey"
   },
   "icon": "icon.png",
   "description": "A blazing fast UI theme color made for VSCode to conquer stars, planet and space.",
@@ -18,6 +18,14 @@
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Rocket UI",
+    "Rocket Theme",
+    "Eye Care Theme",
+    "Accessible Theme"
   ],
   "contributes": {
     "themes": [
